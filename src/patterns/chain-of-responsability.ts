@@ -12,7 +12,8 @@ export function processRequest(r: unknown, chain: any[]) {
     lastResult = chain[i](r);
     i++;
   } while (lastResult != null && i < chain.length);
+
   if (lastResult != null) {
-    console.log("Error: request could not be fulfilled");
+    throw new Error("Error: request could not be fulfilled");
   }
 }
