@@ -20,3 +20,4 @@ A list of current design patterns in the project
 - Chain of Responsibility
 - Repository
 - Facade
+- UseCase
