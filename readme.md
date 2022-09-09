@@ -21,3 +21,4 @@ A list of current design patterns in the project
 - Repository
 - Facade
 - UseCase
+- Strategy
